@@ -9,137 +9,65 @@
 % this notice and the above URL in the source code if you choose to
 % redistributemoti this file.
 
-\documentclass[letterpaper]{article}
+\documentclass[12pt,a4paper,sans]{moderncv}
 
-\usepackage{hyperref}
-\usepackage{geometry}
-\usepackage[utf8x]{inputenc}
 \usepackage{datetime}
 
-% Comment the following lines to use the default Computer Modern font
-% instead of the Palatino font provided by the mathpazo package.
-% Remove the 'osf' bit if you don't like the old style figures.
-%\usepackage[T1]{fontenc}
-%\usepackage[sc]{mathpazo}
+%----------------------------------------------------------------------------------------
+%   NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Oleksandr} % Your first name 
+\familyname{Huziy} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{Curriculum Vitae}
+\email{guziy.sasha@gmail.com}
+\homepage{www.escer.uqam.ca/huziy_EN.html}{www.escer.uqam.ca/huziy\_EN.html}
+\extrainfo{My blog: guziy.blogspot.com}
+%\photo[70pt][0.4pt]{pictures/Huziy} 
 
 
-% Set your name here
-\def\name{Oleksandr Huziy}
-
-% Replace this with a link to your CV if you like, or set it empty
-% (as in \def\footerlink{}) to remove the link in the footer:
-\def\footerlink{}
-
-% The following metadata will show up in the PDF properties
-\hypersetup{
-  colorlinks = true,
-  urlcolor = black,
-  pdfauthor = {\name},
-  pdfkeywords = {economics, statistics, mathematics},
-  pdftitle = {\name: Curriculum Vitae},
-  pdfsubject = {Curriculum Vitae},
-  pdfpagemode = UseNone
-}
-
-\geometry{
-  body={6.5in, 8.5in},
-  left=1.0in,
-  top=1.25in
-}
-
-% Customize page headers
-\pagestyle{myheadings}
-\markright{\name}
-\thispagestyle{empty}
-\usepackage{lscape}
-\usepackage{longtable}
-
-% Custom section fonts
-\usepackage{sectsty}
-\sectionfont{\rmfamily\mdseries\Large}
-\subsectionfont{\rmfamily\mdseries\itshape\large}
-
-% Other possible font commands include:
-% \ttfamily for teletype,
-% \sffamily for sans serif,
-% \bfseries for bold,
-% \scshape for small caps,
-% \normalsize, \large, \Large, \LARGE sizes.
-
-% Don't indent paragraphs.
-\setlength\parindent{0em}
-
-% Make lists without bullets
-\renewenvironment{itemize}{
-  \begin{list}{}{
-    \setlength{\leftmargin}{0em}
-  }
-}{
-  \end{list}
-}
+\moderncvstyle{classic} % CV theme - options include: 'casual' (default),
+% 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange',
+% 'green', 'red', 'purple', 'grey' and 'black'
 
 
 
+\usepackage[scale=0.8]{geometry} % Reduce document margins
+\setlength{\hintscolumnwidth}{4cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+
+\usepackage[utf8x]{inputenc} 
 
 
 \begin{document}
 
-% Place name at left
-{\huge \name}
-
-% Alternatively, print name centered and bold:
-%\centerline{\huge \bf \name}
-
-\vspace{0.25in}
-
-\begin{minipage}{0.45\linewidth}
-  Email: \href{mailto:guziy.sasha@gmail.com}{\tt guziy.sasha@gmail.com}
-\end{minipage}
+\makecvtitle
 
 
+\section{Education}
 
-\section*{Education}
 
-\setlength\LTleft{0pt}
-\setlength\LTright{0pt}
+\cventry{05/2010--present}{Ph.D. in Earth and Atmospheric Sciences}{UQÀM
+(Université du Québec à Montréal)}{}{}{}
 
-\begin{longtable}{@{}l@{\extracolsep{\fill}}r@{}}
-\begin{minipage}[t]{10cm}
-\textbf{Ph.D. in Earth and Atmospheric Sciences} \newline 
-\emph{UQÀM (Université du Québec à Montréal)}
-\end{minipage}
-&
-05/2010 - present \\ \\
+\cventry{09/2009--04/2010}{M.Sc. in Atmospheric Sciences (classes only)}{UQÀM
+(Université du Québec à Montréal)}{}{}{}
 
-\begin{minipage}[t]{10cm}
-\textbf{M.Sc. in Atmospheric Sciences (classes only)}\newline 
-\emph{UQÀM (Université du Québec à Montréal)}
-\end{minipage}
-&
-09/2009 - 04/2010 \\ \\
-
-\begin{minipage}[t]{10cm}
-\textbf{M.Sc. in applied physics and mathematics}\newline 
-\emph{MIPT (Moscow
-Institute of Physics and Technology, Kiev branch), department of
-Control/Management and \newline Applied Mathematics.} \newline
+\cventry{09/2006--06/2008}{M.Sc. in applied physics and mathematics}{MIPT
+(Moscow Institute of Physics and Technology, Kiev branch), department of
+Control/Management and \newline Applied Mathematics.}{}{}{
 Final dissertation: Development of weather prediction system for
-Ukraine.
-\end{minipage}
-&
-09/2006 - 06/2008 \\ \\
+Ukraine.}
 
-\begin{minipage}[t]{10cm}
-\textbf{B.Sc. in applied physics and mathematics}\newline 
-\emph{MIPT (Moscow
-Institute of Physics and Technology), department of
-Problems of Physics and Power Engineering.} \newline
-Final dissertation: Modeling of transport of radioactive substances in the
-atmosphere.
-\end{minipage}
-&
-09/2002 - 06/2006 \\ \\
-\end{longtable}
+
+\cventry{09/2002--06/2006}{B.Sc. in applied physics and mathematics}{MIPT
+(Moscow Institute of Physics and Technology), department of
+Problems of Physics and Power Engineering.}{}{}{Final dissertation: Modeling of transport of radioactive substances in the
+atmosphere.}
 
 
 \section*{Realisations and publications}
@@ -268,15 +196,6 @@ atmosphere.
 % \end{itemize}
 
 
-\bigskip
-
-% Footer
-\begin{center}
-  \begin{footnotesize}
-    Last update: \ddmmyyyydate \today \\
-    \href{\footerlink}{\texttt{\footerlink}}
-  \end{footnotesize}
-\end{center}
 
 \end{document}
 
