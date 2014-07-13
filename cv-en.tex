@@ -1,0 +1,282 @@
+% LaTeX Curriculum Vitae Template
+%
+% Copyright (C) 2004-2009 Jason Blevins <jrblevin@sdf.lonestar.org>
+% http://jblevins.org/projects/cv-template/
+%
+% You may use use this document as a template to create your own CV
+% and you may redistribute the source code freely. No attribution is
+% required in any resulting documents. I do ask that you please leave
+% this notice and the above URL in the source code if you choose to
+% redistributemoti this file.
+
+\documentclass[letterpaper]{article}
+
+\usepackage{hyperref}
+\usepackage{geometry}
+\usepackage[utf8x]{inputenc}
+\usepackage{datetime}
+
+% Comment the following lines to use the default Computer Modern font
+% instead of the Palatino font provided by the mathpazo package.
+% Remove the 'osf' bit if you don't like the old style figures.
+%\usepackage[T1]{fontenc}
+%\usepackage[sc]{mathpazo}
+
+
+% Set your name here
+\def\name{Oleksandr Huziy}
+
+% Replace this with a link to your CV if you like, or set it empty
+% (as in \def\footerlink{}) to remove the link in the footer:
+\def\footerlink{}
+
+% The following metadata will show up in the PDF properties
+\hypersetup{
+  colorlinks = true,
+  urlcolor = black,
+  pdfauthor = {\name},
+  pdfkeywords = {economics, statistics, mathematics},
+  pdftitle = {\name: Curriculum Vitae},
+  pdfsubject = {Curriculum Vitae},
+  pdfpagemode = UseNone
+}
+
+\geometry{
+  body={6.5in, 8.5in},
+  left=1.0in,
+  top=1.25in
+}
+
+% Customize page headers
+\pagestyle{myheadings}
+\markright{\name}
+\thispagestyle{empty}
+\usepackage{lscape}
+\usepackage{longtable}
+
+% Custom section fonts
+\usepackage{sectsty}
+\sectionfont{\rmfamily\mdseries\Large}
+\subsectionfont{\rmfamily\mdseries\itshape\large}
+
+% Other possible font commands include:
+% \ttfamily for teletype,
+% \sffamily for sans serif,
+% \bfseries for bold,
+% \scshape for small caps,
+% \normalsize, \large, \Large, \LARGE sizes.
+
+% Don't indent paragraphs.
+\setlength\parindent{0em}
+
+% Make lists without bullets
+\renewenvironment{itemize}{
+  \begin{list}{}{
+    \setlength{\leftmargin}{0em}
+  }
+}{
+  \end{list}
+}
+
+
+
+
+
+\begin{document}
+
+% Place name at left
+{\huge \name}
+
+% Alternatively, print name centered and bold:
+%\centerline{\huge \bf \name}
+
+\vspace{0.25in}
+
+\begin{minipage}{0.45\linewidth}
+  Email: \href{mailto:guziy.sasha@gmail.com}{\tt guziy.sasha@gmail.com}
+\end{minipage}
+
+
+
+\section*{Education}
+
+\setlength\LTleft{0pt}
+\setlength\LTright{0pt}
+
+\begin{longtable}{@{}l@{\extracolsep{\fill}}r@{}}
+\begin{minipage}[t]{10cm}
+\textbf{Ph.D. in Earth and Atmospheric Sciences} \newline 
+\emph{UQÀM (Université du Québec à Montréal)}
+\end{minipage}
+&
+05/2010 - present \\ \\
+
+\begin{minipage}[t]{10cm}
+\textbf{M.Sc. in Atmospheric Sciences (classes only)}\newline 
+\emph{UQÀM (Université du Québec à Montréal)}
+\end{minipage}
+&
+09/2009 - 04/2010 \\ \\
+
+\begin{minipage}[t]{10cm}
+\textbf{M.Sc. in applied physics and mathematics}\newline 
+\emph{MIPT (Moscow
+Institute of Physics and Technology, Kiev branch), department of
+Control/Management and \newline Applied Mathematics.} \newline
+Final dissertation: Development of weather prediction system for
+Ukraine.
+\end{minipage}
+&
+09/2006 - 06/2008 \\ \\
+
+\begin{minipage}[t]{10cm}
+\textbf{B.Sc. in applied physics and mathematics}\newline 
+\emph{MIPT (Moscow
+Institute of Physics and Technology), department of
+Problems of Physics and Power Engineering.} \newline
+Final dissertation: Modeling of transport of radioactive substances in the
+atmosphere.
+\end{minipage}
+&
+09/2002 - 06/2006 \\ \\
+\end{longtable}
+
+
+\section*{Realisations and publications}
+
+
+\begin{itemize}
+    \item Jacinthe Clavet-Gaumont, Laxmi Sushama, Naveed Khaliq,
+    \textbf{Oleksandr Huziy}, René Roy, "Canadian RCM projected changes to high
+    flows for Québec watersheds using regional frequency analysis", submitted to International Journal of Climatology.
+    
+    \item \textbf{Oleksandr Huziy}, Laxmi Sushama, Naveed Khaliq, Bernhard
+    Lehner, René Laprise, René Roy, "Analysis of Streamflow Characteristics over Northeastern Canada 
+     in a Changing Climate", Climate Dynamics, 2012, DOI:
+     10.1007/s00382-012-1406-0.
+    \item \textbf{Oleksandr Huziy}, Laxmi Sushama, Naveed Khaliq, Bernhard Lehner,
+     René Laprise, René Roy, "Analysis of Streamflow Characteristics over Northeastern Canada 
+     in a Changing Climate", poster presentation at CMOS conference, Montreal,
+     28 May - 1 June 2012.
+    \item \textbf{Oleksandr Huziy}, Laxmi Sushama, Naveed Khaliq, Bernhard Lehner, René
+    Laprise, René Roy: "Projected Changes to Streamflow Characteristics in
+    North-East Canadian Basins as Simulated by the Canadian Regional Climate
+    Model (CRCM4)", poster presentation at AGU Fall meeting, San Francisco,
+    December 5, 2011.
+    \item \textbf{Oleksandr (Sasha) Huziy}, Jacinthe Clavet-Gaumont, Laxmi
+    Sushama, Naveed Khaliq, Bernhard Lehner, René Laprise, René Roy: "Projected changes to streamflow extremes in Quebec
+    basins as simulated by the Canadian Regional Climate Model (CRCM4)",
+    presentation at workshop at ESCER, UQÀM, Montreal (QC), May 25, 2011,
+    (\url{http://people.sca.uqam.ca/~huziy/pdf/Workshop_UQAM_2011.pdf}).
+   
+    \item \textbf{Oleksandr Huziy}, Devis de recherche, "Development of a
+    Lake-River Module for Canadian Regional Climate Model (CRCM5)", 2011,
+    (\url{http://people.sca.uqam.ca/~huziy/pdf/devis_Huziy.pdf}).
+   
+    \item \textbf{Oleksandr Huziy}, "Hydrological Cycle in Current and Future Climate",
+    projet réalisé dans le cadre du cours STA-9800: Dynamique du globe, 2011,\\
+     (\url{http://people.sca.uqam.ca/~huziy/pdf/GlobeDynamicsReport.pdf}).
+   
+    \item \textbf{Oleksandr Huziy}, "Development of flow directions for use in
+    distributed river models", projet réalisé dans le cadre du cours STA9850
+    Concept de système en sciences de la Terre et de l'atmosphère, 2011,
+    (\url{http://people.sca.uqam.ca/~huziy/pdf/flow_directions.pdf}).
+   
+    \item \textbf{Oleksandr Huziy}, "Atmospheric Boundary Layer over the Lake Surface",
+           projet réalisé dans le cadre du cours "Couche limite atmosphérique",
+           2010, (\url{http://people.sca.uqam.ca/~huziy/pdf/Report_Huziy_ABL.pdf}).
+   
+    \item \textbf{Oleksandr Huziy}, "Modélisation d’un nuage chaud stratiforme",
+       projet réalisé dans le cadre du cours "Convection et precipitation", 2010,
+       (\url{http://people.sca.uqam.ca/~huziy/pdf/Huziy_SCA7050_rapport.pdf}).
+
+    \item Oleksandr Huziy et André Monette, "Identification et Prévision du
+    Brouillard en Utilisant les Données Satellitaires", projet réalisé dans le cadre du cours Météorologie et télédetection,
+       2010, (\url{http://people.sca.uqam.ca/~huziy/pdf/Report_Monette_HUziy_teledetection.pdf}).
+
+    \item \textbf{Guziy A.M. (Huziy O. M.)}, Kovalets I.V., Kushchan A.A.,
+    Zheleznyak M.J.
+    "Statistical downscaling of results of the forecasting system MM5–Ukraine using neural net technology.",
+    workshop presentation, Saint-Petersburg, 2008, (\url{http://people.sca.uqam.ca/~huziy/pdf/presentation_spb2008.pdf}).
+
+    \item I. Ievdin, D. Treebushny, I. Kovalets, \textbf{O. Guziy(Huziy O. M.)}, M.I.
+    Zheleznyak, "Development Multi-Platform Version Of Decision Support System For Nuclear Emergency Management In Europe (Rodos)
+    On Base Of Modern Java And Gis Technologies", 
+    Institute of Mathematical Machine and System Problems NAS of Ukraine, conference
+    "Decision Support Systems. Theory and Practice", pp.121 - 124, Kiev, 2008.
+     (\url{http://people.sca.uqam.ca/~huziy/pdf/ievdin_sppr2008.pdf})
+
+\end{itemize}
+
+\section*{Experience}
+\begin{itemize}
+  
+  \item (02/2012 - 03/2012, 05/2012):
+  \textbf{research assistant} at centre ESCER (l'étude et simulation du climat à
+  l'échelle régionale), Université du Québec à Montréal.\\
+  Tasks:
+  \begin{enumerate}
+    \item Analysis of output from regional climate models.
+    \item Support with GIS applications.
+  \end{enumerate}
+
+  \item (08/2008 - 10/2008): 
+   \textbf{junior researcher} at Institute of Mathematical
+  Machines and Problems, Kiev, Ukraine. \\
+  Tasks:
+  \begin{enumerate}
+    \item Scientific support of a weather forecasting system at
+    \href{http://meteoprog.com}{http://meteoprog.com}.
+    \item Development of a decision support system for nuclear emergency
+    management in Europe (Rodos).
+  \end{enumerate}
+\end{itemize}
+
+\section*{Relevant Skills}
+\begin{itemize}  
+  \item Programming languages in which I have written programs: \textbf{ Python,
+  Java, MATLAB, C/C++, Fortran, R, Linux shell scripting}. 
+  \item I used parallel models WRF (Weather Research and Forecasting) and CRCM
+  (Canadian Regional Climate Model), and wrote parallel programs in Fortran
+  (MPI), Python (multithreading and multiprocessing) and Java (threads).
+\end{itemize}
+
+
+\section*{Scholarships}
+
+\begin{itemize}
+    \item (2009-2012) Fee waiver scholarship for international students given
+    by gouvernment of Quebec.
+    \item (2011): excellence scholarship from Hydro-Quebec.
+    \item (2010): excellence scholarship from Hydro-Quebec.
+    \item (2009): excellence scholarship FARE.
+\end{itemize}
+
+
+% \section*{Hobbies and personal projects}
+% \begin{itemize}
+%   \item I have a personal \textbf{blog}, where I write some interesting things I
+%   learn during my research activities: \\
+%   \href{http://guziy.blogspot.com}{http://guziy.blogspot.com}.
+%   \item Some of my \textbf{programming projects} are hosted at GitHub:
+%   \href{https://github.com/guziy}{https://github.com/guziy}
+%   \item I am interested in programming contests. For example, I participate in
+%   the online \textbf{programming contest} at
+%   \href{http://projecteuler.net}{http://projecteuler.net} using nickname guziy.
+%   \item I like reading books (especially Stephen King's works), swimming and
+%   I enjoy playing badminton.
+% \end{itemize}
+
+
+\bigskip
+
+% Footer
+\begin{center}
+  \begin{footnotesize}
+    Last update: \ddmmyyyydate \today \\
+    \href{\footerlink}{\texttt{\footerlink}}
+  \end{footnotesize}
+\end{center}
+
+\end{document}
+
