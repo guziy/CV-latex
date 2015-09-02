@@ -258,7 +258,7 @@
 % loads a style scheme
 \newcommand*{\moderncvstyle}[1]{
   \RequirePackage{moderncvstyle#1}}
-  
+
 % loads a color scheme
 \newcommand*{\moderncvcolor}[1]{
   \RequirePackage{moderncvcolor#1}}
@@ -418,7 +418,7 @@
   \setlength{\topsep}{0pt}%
   \setlength{\parsep}{0pt}%
   \setlength{\parskip}{0pt}%
-  \setlength{\itemsep}{0pt}}
+  \setlength{\itemsep}{1em}}
 \renewcommand*{\enumhook}{\itemhook{}}
 \renewcommand*{\deschook}{\itemhook{}}
 
