@@ -44,6 +44,7 @@
 \usepackage[utf8x]{inputenc}
 
 
+\newcommand{\vertspace}{1em}
 
 
 \begin{document}
@@ -52,12 +53,11 @@
 \makecvtitle
 
 % Set the spacing between paragraphs and items
-\setlength{\parskip}{2em}
+\setlength{\parskip}{\vertspace}
+
 
 
 \section{Education}
-
-
 \cventry{05/2010--present}{Ph.D. in Earth and Atmospheric Sciences}{}{}{}{UQÀM
 (Université du Québec à Montréal)}
 
@@ -77,9 +77,9 @@ Problems of Physics and Power Engineering. \newline Final dissertation: Modeling
 atmosphere.}
 
 
-\section*{Experience}
+\section{Experience}
+\vspace{\vertspace} % You can remove this when the entries are converted to cventry
 \begin{itemize}
-
   \item (02/2012 - 03/2012, 05/2012):
   \textbf{research assistant} at centre ESCER (l'étude et simulation du climat à
   l'échelle régionale), Université du Québec à Montréal.\\
@@ -104,7 +104,8 @@ atmosphere.}
   \end{itemize}
 \end{itemize}
 
-\section*{Relevant Skills}
+\section{Relevant Skills}
+\vspace{\vertspace}
 \begin{itemize}
   \item Analysis of large datasets (model simulations and observation datasets)
 
@@ -112,25 +113,21 @@ atmosphere.}
   (Canadian Regional Climate Model), and wrote parallel programs in Fortran
   (MPI), Python (multithreading and multiprocessing) and Java (threads).
 
-  \item Programming languages in which I have written programs: \textbf{ Python,
-  Java, MATLAB, C/C++, Fortran, R, Linux shell scripting}.
+  \item Programming languages: Python, Java, MATLAB, C/C++, Fortran, R, Linux shell scripting
 
 \end{itemize}
 
 
+\section*{Peer reviewed publications}
+\input{peer_reviewed}
 
-\section*{Publications and reports}
-\vspace{0.5cm}
-\input{publications_and_reports}
 
 \section*{Conferences and seminars}
 \input{conferences}
 
 
-
-
-\section*{Scholarships}
-
+\section{Scholarships}
+\vspace{\vertspace}
 \begin{itemize}
     \item (2009-2012) Fee waiver scholarship for international students given
     by gouvernment of Quebec.
@@ -138,6 +135,13 @@ atmosphere.}
     \item (2010): excellence scholarship from Hydro-Quebec.
     \item (2009): excellence scholarship FARE.
 \end{itemize}
+
+
+\section*{Reports}
+\input{reports}
+
+
+
 
 
 % \section*{Hobbies and personal projects}

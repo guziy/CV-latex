@@ -65,6 +65,7 @@
 \extrainfo{My blog: guziy.blogspot.com}
 %\photo[70pt][0.4pt]{pictures/Huziy}
 
+\newcommand{\vertspace}{1em}
 
 \begin{document}
 
@@ -75,14 +76,29 @@
 %\usepackage[sc]{mathpazo}
 \makecvtitle % Print the CV title
 
+% Set the spacing between paragraphs and items
+\setlength{\parskip}{\vertspace}
+
+
 
 \section{Éducation}
-\cventry{05/2010--présent}{Doctorat en sciences de la Terre et de l'atmosphère}{UQÀM (Université du Québec à Montréal)}{}{}{}
-\cventry{09/2009--04/2010}{Maîtrise en sciences de l'atmosphère (les cours seulement)}{UQÀM (Université du Québec à Montréal)}{}{}{}
-\cventry{09/2006--06/2008}{Maîtrise en physique et mathématiques appliquées, département de contrôle/gestion et de mathématiques appliquées}{MIPT (Institut de Moscou de physique et de la technologie, département à Kiev), département de contrôle/gestion et de mathématiques appliquées.}{}{}{Projet final: Développement du système de prévision du temps pour l'Ukraine.}
-\cventry{09/2002--06/2006}{Baccalauréat en physique et mathématiques appliquées, département des Problèmes de physique et d'énergétique}{MIPT (Institut de Moscou de physique et de la technologie), département
-des problèmes de physique et génie énergétique.}{}{}{Projet final: Modélisation du transport des substances radioactives dans
-l'atmosphère.}
+\cventry{05/2010--présent}{Doctorat en sciences de la Terre et de
+l'atmosphère}{}{}{}{UQÀM (Université du Québec à Montréal)}
+
+\cventry{09/2009--04/2010}{Maîtrise en sciences de l'atmosphère (les cours
+seulement)}{}{}{}{UQÀM (Université du Québec à Montréal)}
+
+\cventry{09/2006--06/2008}{Maîtrise en physique et mathématiques appliquées,
+département de contrôle/gestion et de mathématiques appliquées}{}{}{}{MIPT (Institut
+de Moscou de physique et de la technologie, département à Kiev), département de
+contrôle/gestion et de mathématiques appliquées. \newline Projet final:
+Développement du système de prévision du temps pour l'Ukraine.}
+
+\cventry{09/2002--06/2006}{Baccalauréat en physique et mathématiques appliquées,
+département des Problèmes de physique et d'énergétique}{}{}{}{ MIPT (Institut de Moscou
+de physique et de la technologie), département des problèmes de physique et
+génie énergétique. \newline Projet final: Modélisation du transport des substances
+radioactives dans l'atmosphère.}
 
 
 
@@ -93,8 +109,6 @@ Canadien du Climat (MRCC5)}
 
 
 \section{Expérience}
-
-
 %%%%%%%%%%%%%%%%%%%%%%%% RA at UQAM
 \cvitem{09/2013--présent}{
   \textbf{Assistant de recherche} centre ESCER (l'étude et simulation du
@@ -109,7 +123,6 @@ Network for Regional Climate and Weather Processes)}
 \cvitem{}{\labelitemii Maintenance et mis à jour du site internet du Réseau
 \url{cnrcwp.uqam.ca}.}
 \cvitem{}{\labelitemii Documentation, organisation des réunions et conférences.}
-
 
 %%%%%%%%%%%%%%%%%%%%%%%%% TA at UQAM
 \cvitem{9/2013--12/2013, 10/2012--12/2012}{
@@ -141,21 +154,11 @@ Network for Regional Climate and Weather Processes)}
     gestion des situations d'urgence nucléaire en Europe (RODOS).}
 
 
+\section{Publications évaluées par les pairs  }
+\input{peer_reviewed}
 
-
-
-\section{Réalisations et publications}
-
-\vspace{0.5cm}
-\subsection{Conférences et séminaires}
-\vspace{0.5cm}
+\section{Conférences et séminaires}
 \input{conferences}
-
-
-\vspace{0.5cm}
-\subsection{Publications et rapports}
-\vspace{0.5cm}
-\input{publications_and_reports}
 
 
 \section{Bourses et distinctions}
@@ -170,7 +173,10 @@ Network for Regional Climate and Weather Processes)}
 
 
 \section{Services academiques}
-Critique pour International Journal of Climate.
+L'évaluateur pour "International Journal of Climatology".
+
+\section{Rapports}
+\input{reports}
 
 
 \end{document}
