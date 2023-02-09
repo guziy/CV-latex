@@ -24,7 +24,6 @@
 % All information in this block is optional, comment out any lines you don't need
 \title{Curriculum Vitae}
 \email{guziy.sasha@gmail.com}
-\homepage{https://scholar.google.ca/citations?user=1vAVS_oAAAAJ&hl=en}{google scholar}
 \extrainfo{My blog: guziy.blogspot.com}
 %\photo[70pt][0.4pt]{pictures/Huziy}
 
@@ -65,7 +64,7 @@
 (Université du Québec à Montréal)}
 
 \cventry{09/2006--06/2008}{M.Sc. in applied physics and mathematics}{}{}{}{MIPT
-(Moscow Institute of Physics and Technology, Kiev branch), department of
+(Moscow Institute of Physics and Technology, Kyiv branch), department of
 Control/Management and Applied Mathematics.\newline
 Final dissertation: Development of weather prediction system for
 Ukraine.}
@@ -84,8 +83,23 @@ atmosphere.}
 
 %TODO: Add TA, RA and CNRCWP coordination
 
+
+\cventry{06/2018--Present}{Physical sciences specialist, PC}{Environment and Climate Change Canada (ECCC)}{Montreal, Canada}{}{
+Responsibilities:
+\begin{itemize}
+\setlength\itemsep{0em}
+  \item Data steward and developer of Global Deterministic Storm Surge Prediction System (GDSPS), operational since Dec 2021
+  \item Data steward and developer of Regional Deterministic Storm Surge Prediction System (RDSPS), retired in Dec 2021 and replaced by GDSPS
+  \item Data steward and developer of Regional Ensemble Storm Surge Prediction System (RESPS), operational since Dec 2021
+  \item CONCEPTS tools: development, bug fixes, migration
+  \item CONCEPTS-NEMO: development for GDSPS and CONCEPTS 
+  \item Develop Python and R (mostly maintenance of existing scripts) packages for system validation and postprocessing
+\end{itemize}
+}
+
+
 % PDF at UQAM
-\cventry{04/2016--present}{Postdoctoral Fellow}{centre ESCER, Université du Québec à Montréal}{Montreal, Canada}{}{
+\cventry{04/2016--06/2018}{Postdoctoral Fellow}{centre ESCER, Université du Québec à Montréal}{Montreal, Canada}{}{
 Responsibilities:
 \begin{itemize}
 \setlength\itemsep{0em}
@@ -93,7 +107,6 @@ Responsibilities:
   \item Study lake-effect snowfall events in current and future climates
 \end{itemize}
 }
-
 
 
 %%%%%%%%%%%%%%%%%%%%%%%% RA at UQAM
@@ -139,7 +152,7 @@ Responsibilities:
   \end{itemize}}
 
 \cventry{08/2008--10/2008}{Junior researcher}{Institute of Mathematical
-  Machines and Problems}{Kiev, Ukraine}{}{
+  Machines and Problems}{Kyiv, Ukraine}{}{
   Responsibilities:
   \begin{itemize}
   \setlength\itemsep{0em}
@@ -152,7 +165,10 @@ Responsibilities:
 \section{Relevant Skills}
 \vspace{\vertspace}
 \begin{itemize}
-
+  \item Coupled NEMO ocean model and CRCM atmospheric climate model over the Great Lakes region to study heavy lake-effect snow events. 
+  Using the gossip coupler that was initially developed at ECCC (RPN) and further modified by Michel Valin, in which NEMO and CRCM communicate through shared 
+  memory of co-located (on the same node) rank-0 mpi processes of the corresponding parallel models.
+  \item Experience running and developing NEMO (Nucleus for European Modelling of the Ocean)
   \item Used parallel models WRF (Weather Research and Forecasting) and CRCM
   (Canadian Regional Climate Model), and wrote parallel programs in Fortran
   (MPI and OpenMP), Python (multithreading and multiprocessing) and Java (threads).
@@ -161,9 +177,11 @@ Responsibilities:
 
   \item Analysis of large datasets (model simulations and observation datasets) using Python.
 
-  \item Developed a python wrapper for rmnlib (FORTRAN/C library for reading and writing standard RPN files) using ctypes module. The wrapper is available on github at \href{https://github.com/guziy/pylibrmn}{https://github.com/guziy/pylibrmn}.
+  \item Developed a python wrapper for rmnlib (FORTRAN/C library for reading and writing standard RPN files) using ctypes module. 
+   The wrapper is available on github at \href{https://github.com/guziy/pylibrmn}{https://github.com/guziy/pylibrmn}.
 
-  \item Developed programs and solved problems using the following programming languages: Python, Java, MATLAB, C/C++, Fortran, R, Linux shell scripting, JavaScript.
+  \item Developed programs and solved problems using the following programming languages: 
+  Python, Java, MATLAB, C/C++, Fortran, R, Linux shell scripting (bash), JavaScript.
 
   \item Comfortable with git and svn version control systems.
 
@@ -173,7 +191,7 @@ Responsibilities:
   questions on mailing lists or helping with issues submitted to
   issue tracking systems).
 
-  \item Intermediate English and French language skills. Writing and oral communication skills are not perfect.
+  \item Intermediate English and French language skills. 
 
 \end{itemize}
 
